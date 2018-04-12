@@ -1,8 +1,0 @@
-CREATE TABLE Client_T
-	(ClientID int not null CHECK (ClientID > 0),
-	ClientName nvarchar(35) not null,
-	ClientAddress nvarchar(100),
-	ClientPhone char(10),
-	CONSTRAINT Client_PK PRIMARY KEY (ClientID))
-
-
